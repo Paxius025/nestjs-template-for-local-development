@@ -1,9 +1,17 @@
 # NestJS Template
 
-A backend template built with NestJS, PostgreSQL, Prisma, and Docker Compose. This setup is designed for rapid development with hot reload support using Docker Compose Watch and Webpack HMR.
+> A backend template built with NestJS, PostgreSQL, Prisma, and Docker Compose.  
+> Designed for rapid development with hot reload via Docker Compose Watch and Webpack HMR.
+
+![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat&logo=nestjs&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
+![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat&logo=prisma&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-v20+-339933?style=flat&logo=node.js&logoColor=white)
+
 ---
 
-## Tech Stack
+## 🧱 Tech Stack
 
 | Layer    | Technology         |
 | -------- | ------------------ |
@@ -14,7 +22,7 @@ A backend template built with NestJS, PostgreSQL, Prisma, and Docker Compose. Th
 
 ---
 
-## Prerequisites
+## ✅ Prerequisites
 
 Make sure you have the following installed before getting started:
 
@@ -24,7 +32,7 @@ Make sure you have the following installed before getting started:
 
 ---
 
-## Project Structure
+## 📁 Project Structure
 
 ```
 template-nestjs/
@@ -42,7 +50,7 @@ template-nestjs/
 
 ---
 
-## Getting Started
+## 🚀 Getting Started
 
 ### 1. Clone the repository
 
@@ -89,7 +97,7 @@ Once running, the API is available at: **http://localhost:3000**
 
 ---
 
-## Development with Hot Reload
+## ♻️ Development with Hot Reload
 
 This project uses **Docker Compose Watch** combined with **Webpack HMR (Hot Module Replacement)** for a fast development experience — file changes are reflected inside the running container without restarting it.
 
@@ -131,7 +139,7 @@ Press `Ctrl+C` in the terminal running `docker compose watch`.
 
 ---
 
-## Database Migrations
+## 🗄️ Database Migrations
 
 After modifying `prisma/schema.prisma`, run migrations inside the running container:
 
@@ -145,7 +153,7 @@ docker compose exec backend npx prisma generate
 
 ---
 
-## Useful Commands
+## 🛠️ Useful Commands
 
 ```bash
 # Start all services (no watch)
@@ -175,7 +183,7 @@ docker compose exec backend <command>
 
 ---
 
-## Common Issues
+## 🐛 Common Issues
 
 ### Hot reload is not detecting file changes
 
